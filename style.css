@@ -7,7 +7,7 @@ body {
 
 #backgroundCon {
     background-image: url(Images/background.jpg);
-    height: 150vh;
+    height: 110vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,14 +60,13 @@ body {
 
 @media only screen and (max-width: 815px) {
     #logoCon Img {
-        width: 110px;
+        width: 150px;
         height: auto;
     }
     
     #inputCon {
         padding: 20px !important;
         width: 90% !important;
-        margin-top: 5px !important;
     }
 
     #inputCon h3 {
