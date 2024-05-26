@@ -1,0 +1,130 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+}
+
+#backgroundCon {
+    background-image: url(Images/background.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#logoCon {
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+#logoCon Img {
+    width: 200px;
+    height: 150px;
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 15px;
+}
+
+#inputCon {
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+}
+
+#inputSub {
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+#inputCon h5 {
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: white;
+    border: none;
+}
+
+#tableCon {
+    display: none;
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+
+@media only screen and (max-width: 815px) {
+    #logoCon Img {
+        width: 110px;
+        height: auto;
+    }
+    
+    #inputCon {
+        padding: 20px !important;
+        width: 90% !important;
+        margin-top: 5px !important;
+    }
+
+    #inputCon h3 {
+        font-size: 20px !important;
+        margin-top: 10px;
+        margin-bottom: 20px !important;
+    }
+
+    #inputCon h5 {
+        display: none;
+    }
+
+    #inputSub {
+        display: block;
+        padding-left: 5px 15px 8px 15px;
+        padding-top: 5px !important;
+        padding-bottom: 8px !important;
+        margin: 10px;
+    }
+
+    #inputSub div {
+        width: 80%;
+        margin: auto;
+    }
+
+    #submit {
+        padding: 10px !important;
+        color: rgb(29, 28, 28);
+    }
+
+    #tableCon {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width:730px) {
+    #inputCon h3 {
+        font-size: 25px;
+    }
+
+    #inputCon h5 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+} */
